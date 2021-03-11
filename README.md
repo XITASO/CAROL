@@ -43,3 +43,8 @@ Robot specific component that includes the drivers to control a robot. In this c
 Plannings for new STL files can be started if you created the GraspIt and Gazebo models for that with the following terminal commands:
 * ./createGraspitFromStl.bash $path_to_your_stl_file
 * python3 create_gazebo_files/main.py $path_to_your_stl_file
+
+## Run
+
+First you have to adapt some pathes in the startSession.bash file to your own setup and specify which object you want to grasp.
+After that just run `./startSession.bash`
