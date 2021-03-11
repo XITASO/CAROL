@@ -28,7 +28,7 @@ Robot specific component that includes the drivers to control a robot. In this c
 * Ubuntu 18.04
 * ROS Melodic
 
-## What to install
+## Prepare
 * Install ROS melodic according to [this](http://wiki.ros.org/melodic/Installation/Ubuntu) - install the full desktop version to get the simulator and visualization tools
 * Install GraspIt according to [this](https://graspit-simulator.github.io/build/html/installation_linux.html)
 * If you want to use the youBot install the [drivers](https://github.com/youbot/youbot_driver)
@@ -37,3 +37,9 @@ Robot specific component that includes the drivers to control a robot. In this c
   * To create the GraspIt World files you will need [this](https://github.com/JenniferBuehler/ivcon)
   * For robot specific catkin packages with Kuka YouBot as example [this](https://github.com/awied1404/CAROL_catkin_ws)
 *  Set the environment variable IVCON to the path where the binary of this package is build
+* Add the template file for GraspIt in the $GRASPIT home folder
+* Add the template folder for Gazebo in your ~/.gazebo/models/  directory
+
+Plannings for new STL files can be started if you created the GraspIt and Gazebo models for that with the following terminal commands:
+* ./createGraspitFromStl.bash $path_to_your_stl_file
+* python3 create_gazebo_files/main.py $path_to_your_stl_file
