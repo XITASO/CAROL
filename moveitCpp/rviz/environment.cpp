@@ -27,8 +27,8 @@ void Environment::init(moveit::planning_interface::MoveGroupInterface &moveGroup
     printer.header.frame_id = moveGroup.getPlanningFrame();
 
     printer.id = "printer";
+    shapes::Mesh* m = shapes::createMeshFromResource("file://" + std::string(argv[8]));
 
-    shapes::Mesh* m = shapes::createMeshFromResource("file:///home/andreas/Ender-3/printer.stl");
     shape_msgs::Mesh printerMesh;
     shapes::ShapeMsg printerMeshMsg;
     shapes::constructMsgFromShape(m,printerMeshMsg);
