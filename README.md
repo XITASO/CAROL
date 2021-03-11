@@ -1,4 +1,4 @@
-# COPING
+# CAROL - CAd-based gRasp mOtion pLanning
 
 ## What it is
 This is a setup to plan a grasp and a motion for a robot. A planned robot motion can be validated by a simulation.
