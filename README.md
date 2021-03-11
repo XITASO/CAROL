@@ -34,4 +34,4 @@ Robot specific component that includes the drivers to control a robot. In this c
 * If you want to use the youBot install the [drivers](https://github.com/youbot/youbot_driver)
 * Create a catkin_ws, add the following repositories and build them with `catkin build`:
   * For GraspIt ROS interface [this](https://github.com/JenniferBuehler/graspit-pkgs)
-  * 
+  * For robot specific catkin packages with Kuka YouBot as example [this](https://github.com/awied1404/CAROL_catkin_ws)
