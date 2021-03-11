@@ -2,7 +2,7 @@
 
 ## What it is
 This is a setup to plan a grasp and a motion for a robot. A planned robot motion can be validated by a simulation.
-Currently only Gazebo as simulation is implemented.
+Currently only Gazebo (shipping with ROS Melodic installation) as simulation is implemented.
 These components communicate with each other via ROS topics.
 These components not only do the grasp or motion planning but contain also the ability to gain information from other components and react according to these events.
 E.g. if the motion planner doesn't find a valid motion for the given grasps the grasp planner will generate new grasps.
@@ -24,9 +24,9 @@ It will generate new grasps as long as the motion planner doesn't find a valid m
 ### youBot
 Robot specific component that includes the drivers to control a robot. In this case the Kuka YouBot will be controlled.
 
-## Used setup
+## Tested setup
 * Ubuntu 18.04
-* ROS Melodic
+* ROS Melodic 1.14.10
 
 ## Prepare
 * Install ROS melodic according to [this](http://wiki.ros.org/melodic/Installation/Ubuntu) - install the full desktop version to get the simulator and visualization tools
