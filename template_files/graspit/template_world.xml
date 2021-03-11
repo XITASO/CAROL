@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<world>
+	<obstacle>
+		<filename>models/obstacles/table.xml</filename>
+		<transform>
+			<fullTransform>(+1 +0 +0 +0)[+0 +22.9353 +1008.66]</fullTransform>
+		</transform>
+	</obstacle>
+	<graspableBody>
+		<filename>models/objects/template.xml</filename>
+		<transform>
+			<fullTransform>(+1 +0 +0 +0)[+0 +500 +515.5]</fullTransform>
+		</transform>
+	</graspableBody>
+	<!--robot>
+		<filename>models/robots/youbot/youbot.xml</filename>
+		<dofValues>+0 +0 </dofValues>
+		<transform>
+			<fullTransform>(+1 +0 +0 +0)[+0.000359269 +844.519 -413.606]</fullTransform>
+		</transform>
+	</robot-->
+	<camera>
+		<position>-3030.58 +583.431 -278.128</position>
+		<orientation>+0.326369 -0.582099 -0.385117 +0.63744</orientation>
+		<focalDistance>+3050.45</focalDistance>
+	</camera>
+</world>
