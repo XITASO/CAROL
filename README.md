@@ -31,6 +31,8 @@ Robot specific component that includes the drivers to control a robot. In this c
 ## Prepare
 * Install ROS melodic according to [this](http://wiki.ros.org/melodic/Installation/Ubuntu) - install the full desktop version to get the simulator and visualization tools
 * Install GraspIt according to [this](https://graspit-simulator.github.io/build/html/installation_linux.html)
+* If a build fails due to an Eigen3 error you may have to create a symlink like this
+  * `sudo ln -s /usr/include/eigen3/Eigen /usr/local/include/Eigen`
 * If you want to use the youBot install the [drivers](https://github.com/youbot/youbot_driver)
 * Create a catkin_ws, add the following repositories and build them with `catkin build`:
   * For GraspIt ROS interface [this](https://github.com/JenniferBuehler/graspit-pkgs)
