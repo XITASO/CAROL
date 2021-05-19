@@ -37,7 +37,7 @@ Robot specific component that includes the drivers to control a robot. In this c
 * Create a catkin_ws, add the following repositories and build them with `catkin build`:
   * For GraspIt ROS interface [this](https://github.com/JenniferBuehler/graspit-pkgs)
   * To create the GraspIt World files you will need [this](https://github.com/JenniferBuehler/ivcon)
-  * For robot specific catkin packages with Kuka YouBot as example [this](https://github.com/awied1404/CAROL_catkin_ws)
+  * For robot specific catkin packages with Kuka YouBot as example [this](https://github.com/XITASO/CAROL_catkin_ws)
 *  Set the environment variable IVCON to the path where the binary of this package is build
 * Add the template file for GraspIt in the $GRASPIT home folder
 * Add the template folder for Gazebo in your ~/.gazebo/models/  directory
